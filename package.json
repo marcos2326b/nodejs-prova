@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-prova",
+  "version": "1.0.0",
+  "description": "Construir um sistema para gerenciar um cadastro de produtos.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcos2326b/nodejs-prova.git"
+  },
+  "author": "Marcos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcos2326b/nodejs-prova/issues"
+  },
+  "homepage": "https://github.com/marcos2326b/nodejs-prova#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
